@@ -12,6 +12,7 @@
       - curl
       - git
       - make
+      - gcc
       - python
       - python-setuptools
       - python-software-properties
@@ -29,8 +30,8 @@
     npm: name=n state=present global=yes
     
   - name: switch to node 0.11.x
-    shell: n latest
-
+    command: n latest
+    
   - name: install grunt
     npm: name=grunt-cli state=present global=yes
 
