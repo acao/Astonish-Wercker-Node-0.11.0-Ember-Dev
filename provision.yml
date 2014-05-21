@@ -24,9 +24,6 @@
 
   - name: install node
     apt: pkg=nodejs state=present update_cache=yes
-
-  - name: install npm
-    apt: pkg=npm state=present update_cache=yes
   
   - name: install n
     npm: name=n state=present global=yes
