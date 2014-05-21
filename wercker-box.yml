@@ -11,9 +11,9 @@ keywords:
   - bower
   - ruby
   - bundler
-  - php54
-  - composer
-  - mongoDB
+  - ember-cli
+  - bower
+  - n
 packages:
   - ansible@1.4.5
 script: |
