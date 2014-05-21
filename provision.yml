@@ -27,7 +27,7 @@
     apt: pkg=nodejs state=present update_cache=yes
   
   - name: install n
-    npm: name=n state=present global=yes
+    npm: name=n state=latest global=yes
     
   - name: switch to node 0.11.x
     command: n latest
